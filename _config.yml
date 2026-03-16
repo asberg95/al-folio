@@ -154,17 +154,17 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
       layout: post
     output: true
-  projects:
+  projects:        # repurpose for "Ongoing Projects"
     output: true
-  teachings:
+  people:          # NEW — lab members
     output: true
-
+  publications:    # NEW — if you want per-pub pages
+    output: true
+    
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
